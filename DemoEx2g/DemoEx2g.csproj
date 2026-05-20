@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<AssemblyName>DemoEx2g</AssemblyName>
+		<RootNamespace>DemoEx2g</RootNamespace>
+		<Title>ООО «МебельОрг»</Title>
+		<Product>ООО «МебельОрг»</Product>
+		<Description>Информационная система магазина Мебели</Description>
+		<Company>DemoEx2g</Company>
+		<ApplicationIcon>icon.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Npgsql" Version="8.0.8" />
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.8" />
+	</ItemGroup>
+
+</Project>
